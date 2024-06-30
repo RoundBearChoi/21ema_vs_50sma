@@ -5,6 +5,8 @@ import cryptocompare
 
 
 def run():
+    print('Hi..')
+
     # Fetch Bitcoin data from CryptoCompare
     df = cryptocompare.get_historical_price_day('BTC', currency='USD', limit=500, toTs=pd.Timestamp.today())
     df = pd.DataFrame(df)
