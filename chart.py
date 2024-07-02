@@ -40,7 +40,7 @@ def run():
     ax.legend()
 
     # Save the figure
-    plt.savefig('bitcoin_ema21_sma50.png')
+    # plt.savefig('bitcoin_ema21_sma50.png')
 
     # Show the plot
     plt.show()
